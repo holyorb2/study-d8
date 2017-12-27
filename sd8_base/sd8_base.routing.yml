@@ -1,0 +1,8 @@
+# Access to this path is not restricted. This is notated as _access: 'TRUE'.
+page_example_simple:
+  path: 'sd8-page/page-example'
+  defaults:
+    _controller: '\Drupal\sd8_base\Controller\Sd8PageController::simple'
+    _title: 'Page Example'
+  requirements:
+    _permission: 'access content'

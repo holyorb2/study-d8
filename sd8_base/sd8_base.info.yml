@@ -1,0 +1,7 @@
+name: SD8 - Base page
+type: module
+description: 'Demonstrates how to display a page at a given URL.'
+package: D8 Examples
+core: 8.x
+dependencies:
+  - drupal:node
