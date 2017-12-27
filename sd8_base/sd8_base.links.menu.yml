@@ -1,0 +1,3 @@
+sd8_base.simple:
+  title: Simple page
+  route_name: page_example_simple
