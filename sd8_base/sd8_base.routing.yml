@@ -5,11 +5,11 @@ page_example_simple:
     _controller: '\Drupal\sd8_base\Controller\Sd8PageController::simple'
     _title: 'Page Example'
   requirements:
-    _permission: 'access content'
+    _permission: 'access simple page'
 
 sd8_base_page_argument:
   path: 'sd8-page/admin/{type}'
   defaults:
     _controller: '\Drupal\sd8_base\Controller\Sd8PageAdminController::argument'
   requirements:
-    _permission: 'access content'
+    _permission: 'access admin page'
